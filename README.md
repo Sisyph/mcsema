@@ -55,8 +55,8 @@ Why would anyone translate binaries *back* to bitcode?
 |  64-bit architectures | x86-64, AArch64 | x86-64, [AArch64](https://github.com/IAIK/ios-analysis-dagger/)) | x86-64 | x86-64, arm64 & more | x86-64 | x86-64 |  | S2E | S2E | PowerPC | x86-64 |  |
 |  Control-flow recovery | IDA Pro, Binary Ninja, DynInst | Ad-hoc | Ad-hoc | Ad-hoc | Ad-hoc | Ad-hoc | Ad-hoc | Ad-hoc | McSema | Ad-hoc | Ad-hoc | Dyn. Trace Driven |
 |  File formats | ELF, PE | ELF, Mach-O |  | ELF, PE, Mach-O, COFF, AR, Intel HEX, Raw | ELF | ELF | ELF |  | ELF, PE | ELF, Mach-O (maybe) | ELF | ELF |
-|  Bitcode is executable? | Yes | Yes | Yes | Yes | Yes | Yes | No | No | CGC | No | No | No |
-|  C++ exceptions suport? | Yes | No | No | No | No | Indirectly | No | No | No | No | Maybe |  |
+|  Bitcode is executable? | Yes | Yes | Yes | Yes | Yes | Yes | No | No | CGC | No | No | Yes |
+|  C++ exceptions suport? | Yes | No | No | No | No | Indirectly | No | No | No | No | Maybe | No |
 |  Lifts stack variables? | Yes | No | Maybe | Yes | No | No | No | Yes | No | No | Maybe | No |
 |  Lifts global variables? | Yes | Maybe | Yes | Yes | No | Maybe | No | No | No | Yes | Maybe | No |
 |  Has a test suite? | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | No | No |
